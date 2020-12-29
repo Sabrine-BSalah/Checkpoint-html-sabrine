@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Intro HTML</title>
+    <link rel="shortcut icon" href="html.png" type="image/x-icon" />
+  </head>
+
+  <body>
+    <!-- Header Part -->
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#paragraphs">Paragraphs</a></li>
+          <li><a href="#videos">Videos</a></li>
+          <li><a href="#images">Images</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main part -->
+    <main>
+      <!-- Paragraph Section -->
+      <section id="paragraphs">
+        <h1>Intro Title</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+          praesentium quis, perferendis, minima omnis enim voluptatum natus
+          illum dolor ducimus veritatis iusto aliquid nam cupiditate molestias
+          corrupti? Nobis, ad quia!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+          fugit modi quisquam veniam explicabo aspernatur illum non dolor et,
+          debitis laboriosam exercitationem soluta eos mollitia officiis
+          molestias, dignissimos voluptatem laborum.
+        </p>
+      </section>
+
+      <!-- Videos Section -->
+      <section id="videos">
+        <!-- Local video -->
+        <video width="320" height="240" controls>
+          <source src="HTML-tuto1.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
+        <!-- Youtube video -->
+        <iframe
+          width="400"
+          height="250"
+          src="https://www.youtube.com/embed/UB1O30fR-EE"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+
+        <!-- audio  -->
+        <audio controls>
+          <source src="hello.mp3" type="audio/mpeg" />
+          Your browser does not support the audio tag.
+        </audio>
+      </section>
+
+      <!-- Images Section -->
+      <section id="images">
+        <img src="html.png" alt="html" width="400" />
+        <form action="">
+          <label>name</label>
+          <input type="text" />
+          <input type="submit" />
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer part -->
+    <footer>
+      <span>@Copyright Sabrine</span>
+      <a href="https://gomycode.com/TN-FR/home" target="_blank">Gomycode</a>
+    </footer>
+  </body>
+</html>
